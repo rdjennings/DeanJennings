@@ -1,0 +1,4 @@
+export const FETCH_BLOG_LIST = 'FETCH_BLOG_LIST'
+export const FETCH_BLOG = 'FETCH_BLOG'
+export const FETCH_COMMENTS = 'FETCH_COMMENTS'
+export const UPDATE_COMMENTS = 'UPDATE_COMMENTS'

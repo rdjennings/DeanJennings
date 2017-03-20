@@ -1,0 +1,36 @@
+.p-small {
+	margin: 0 0 $gutter-quarter;
+}
+.error {
+	color: #f00;
+	font-weight: 900;
+	margin: 0 !important;
+}
+
+@media (max-width: 992px) {
+	body {
+		font-size: 2em;
+		line-height: 1.5em;
+	}
+}
+
+/* transitions */
+.fade-enter-active, .fade-leave-active {
+  transition: opacity 2.5s;
+}
+
+.fade-enter, .fade-leave-to /* .fade-leave-active in <2.1.8 */ {
+  opacity: 0;
+}
+
+.slide-fade-enter-active {
+  transition: all .8s ease;
+}
+.slide-fade-leave-active {
+  transition: all .8s cubic-bezier(1.0, 0.5, 0.8, 1.0);
+}
+.slide-fade-enter, .slide-fade-leave-to
+/* .slide-fade-leave-active for <2.1.8 */ {
+  transform: translateX(1000px);
+  opacity: 0;
+}

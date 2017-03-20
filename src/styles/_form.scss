@@ -1,0 +1,22 @@
+form {
+	input {
+		background-color: #fff !important;
+		height: 2em !important;
+		width: 250px !important;
+	}
+
+	textarea {
+		background-color: #fff !important;
+		min-height: 5em !important;
+		resize: none !important;	
+	}
+
+	input + .error {
+		margin-top: -20px !important;
+	}
+
+	textarea + .error {
+		margin-top: 0 !important;
+	}
+
+}

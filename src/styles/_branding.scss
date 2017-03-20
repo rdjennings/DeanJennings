@@ -1,0 +1,11 @@
+.personal-branding {
+	background-color: $base-color;
+  height: 215px;
+  overflow: hidden;
+  position: relative;
+
+  img {
+	  position: absolute;
+	  bottom: -69px;
+  }
+}

@@ -1,0 +1,37 @@
+nav {
+	.rdj-logo {
+		font-size: 1.5rem;
+		padding-left:	$gutter;
+	}
+
+
+	ul.right {
+		margin-right: $gutter;
+	}
+
+	ul {
+		a {
+			color: #959595;
+		}
+
+		.router-link-active {
+			a {
+				color: #fff;
+			}
+		}
+
+	}
+
+	ul.side-nav {
+		background-color: #eee;
+		a {
+			color: #959595;
+		}
+
+		.router-link-active {
+			a {
+				color: #000;
+			}
+		}
+	}
+}
