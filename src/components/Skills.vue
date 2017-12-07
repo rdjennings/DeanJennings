@@ -24,6 +24,8 @@
 					<li>Vue (with and without Veux)</li>
 					<li>React (with and without React-Router)</li>
 					<li>Redux (with and without React)</li>
+					<li>GraphQL</li>
+					<li>Apollo</li>
 					<li>jQuery</li>
 					<li>Node (server)</li>
 					<li>AngularJS</li>
