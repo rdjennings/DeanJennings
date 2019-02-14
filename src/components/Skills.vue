@@ -23,13 +23,20 @@
 				<ul class="browser-default">
 					<li>Vue (with and without Veux)</li>
 					<li>React (with and without React-Router)</li>
-					<li>Redux (with and without React)</li>
+					<li>
+						Redux (with and without React)
+						<ul>
+							<li>Thunk</li>
+							<li>Sagas</li>
+							<li>Observables</li>
+						</ul>
+					</li>
 					<li>GraphQL</li>
 					<li>Apollo</li>
 					<li>jQuery</li>
 					<li>Node (server)</li>
-					<li>AngularJS</li>
-					<li>Yahoo User Interface</li>
+					<li>Angular</li>
+					<li>Yahoo User Interface (YUI)</li>
 					<li>Backbone</li>
 					<li>
 						Charting
